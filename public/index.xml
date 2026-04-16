@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>首页 on AI工具导航 - 发现最实用的AI工具</title>
+    <link>https://username.github.io/ai-tools-nav/</link>
+    <description>Recent content in 首页 on AI工具导航 - 发现最实用的AI工具</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://username.github.io/ai-tools-nav/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT - AI对话助手</title>
+      <link>https://username.github.io/ai-tools-nav/tools/chatgpt/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/tools/chatgpt/</guid>
+      <description>ChatGPT - AI对话助手 简介 ChatGPT是OpenAI开发的AI对话工具，基于GPT-4架构，可以进行自然语言对话、写作、编程等多种任务。&#xA;主要功能 💬 智能对话 - 支持多轮对话，理解上下文 ✍️ 写作助手 - 帮你撰写文章、邮件、报告 💻 代码助手 - 编程问题解答，代码生成 🌐 多语言支持 - 支持中文、英文等多语言 定价 免费版：GPT-3.5模型，有使用限制 Plus版：$20/月，GPT-4优先访问 使用场景 📝 文案撰写 📧 邮件处理 💻 编程开发 📚 学习助手 官网 访问 ChatGPT 了解更多</description>
+    </item>
+    <item>
+      <title>Claude - AI助手</title>
+      <link>https://username.github.io/ai-tools-nav/tools/claude/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/tools/claude/</guid>
+      <description>Claude - AI助手 简介 Claude是Anthropic公司开发的AI助手，以其强大的长文本处理能力和安全性著称。&#xA;主要功能 📖 长文本分析 - 处理长达10万token的文档 💬 自然对话 - 支持复杂的多轮对话 📝 内容创作 - 写作、总结、翻译 🔒 安全可靠 - 内置安全过滤器 定价 免费版：Claude 3 Sonnet Pro版：$20/月，可访问所有模型 使用场景 📚 文档阅读与分析 ✍️ 内容创作 💻 编程辅助 🔍 信息检索 官网 访问 Claude 了解更多</description>
+    </item>
+    <item>
+      <title>Midjourney - AI绘画工具</title>
+      <link>https://username.github.io/ai-tools-nav/tools/midjourney/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/tools/midjourney/</guid>
+      <description>Midjourney - AI绘画工具 简介 Midjourney是一款基于Discord的AI绘画工具，可以通过文字描述生成高质量的图片作品。&#xA;主要功能 🎨 文生图 - 通过文字描述生成精美图片 🖼️ 风格多样 - 支持多种艺术风格 ⚡ 快速生成 - 几秒钟内完成创作 🔄 图片变体 - 生成图片的多种变体 定价 套餐 价格 特性 Basic $10/月 200次快速生成 Standard $30/月 15小时快速+无限慢速 Pro $60/月 30小时快速+无限慢速 使用场景 🎨 艺术创作 📱 社交媒体配图 🎮 游戏设计素材 📖 书籍插画 官网 访问 Midjourney 了解更多</description>
+    </item>
+    <item>
+      <title>AI绘画</title>
+      <link>https://username.github.io/ai-tools-nav/categories/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/categories/image/</guid>
+      <description>🎨 AI绘画工具 欢迎来到AI绘画工具分类页面。这里收录了最优质的AI图像生成工具，支持文生图、图生图、图片编辑等功能。&#xA;热门工具 正在整理中&amp;hellip;</description>
+    </item>
+    <item>
+      <title>办公效率</title>
+      <link>https://username.github.io/ai-tools-nav/categories/productivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/categories/productivity/</guid>
+      <description>📊 AI办公效率工具 欢迎来到AI办公效率工具分类页面。这里收录了最优质的AI办公工具，帮助你处理表格、文档、演示文稿等工作。&#xA;热门工具 正在整理中&amp;hellip;</description>
+    </item>
+    <item>
+      <title>编程开发</title>
+      <link>https://username.github.io/ai-tools-nav/categories/coding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/categories/coding/</guid>
+      <description>💻 AI编程开发工具 欢迎来到AI编程开发工具分类页面。这里收录了最优质的AI编程助手和代码生成工具，帮助开发者提高编码效率。&#xA;热门工具 正在整理中&amp;hellip;</description>
+    </item>
+    <item>
+      <title>关于我们</title>
+      <link>https://username.github.io/ai-tools-nav/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/about/</guid>
+      <description>关于AI工具导航 🎯 我们的使命 AI工具导航致力于为用户提供最全面、最实用的AI工具收录和评测服务。我们相信，AI技术正在改变每个人的工作和生活方式，而找到合适的工具是第一步。&#xA;📦 我们收录的分类 ✍️ 写作助手 - AI写作、文案生成 🎨 AI绘画 - 文生图、图生图 🎬 视频制作 - 视频剪辑、字幕生成 🎵 音频处理 - 语音合成、音乐生成 💻 编程开发 - 代码生成、代码解释 📊 办公效率 - 文档处理、数据分析 🌟 我们的特色 精选收录 - 每款工具都经过人工筛选和评测 详细分类 - 按功能和使用场景科学分类 持续更新 - 紧跟AI技术发展，不断更新工具库 用户友好 - 简洁直观的界面设计 📧 联系我们 如有任何问题或建议，欢迎通过以下方式联系我们：&#xA;邮箱：contact@ai-tools-nav.com GitHub：欢迎提交Issue或Pull Request 最后更新：2024年</description>
+    </item>
+    <item>
+      <title>视频制作</title>
+      <link>https://username.github.io/ai-tools-nav/categories/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/categories/video/</guid>
+      <description>🎬 AI视频制作工具 欢迎来到AI视频制作工具分类页面。这里收录了最优质的AI视频编辑和生成工具，帮助你轻松制作专业视频内容。&#xA;热门工具 正在整理中&amp;hellip;</description>
+    </item>
+    <item>
+      <title>写作助手</title>
+      <link>https://username.github.io/ai-tools-nav/categories/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/categories/writing/</guid>
+      <description>✍️ AI写作助手 欢迎来到AI写作助手分类页面。这里收录了最优质的AI写作工具，帮助你快速生成高质量文案、文章、邮件等内容。&#xA;热门工具 正在整理中&amp;hellip;</description>
+    </item>
+    <item>
+      <title>音频处理</title>
+      <link>https://username.github.io/ai-tools-nav/categories/audio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/categories/audio/</guid>
+      <description>🎵 AI音频处理工具 欢迎来到AI音频处理工具分类页面。这里收录了最优质的AI语音合成、语音识别、音乐生成工具。&#xA;热门工具 正在整理中&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

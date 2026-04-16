@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>创意设计 on AI工具导航 - 发现最实用的AI工具</title>
+    <link>https://username.github.io/ai-tools-nav/tags/%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 创意设计 on AI工具导航 - 发现最实用的AI工具</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://username.github.io/ai-tools-nav/tags/%E5%88%9B%E6%84%8F%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Midjourney - AI绘画工具</title>
+      <link>https://username.github.io/ai-tools-nav/tools/midjourney/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://username.github.io/ai-tools-nav/tools/midjourney/</guid>
+      <description>Midjourney - AI绘画工具 简介 Midjourney是一款基于Discord的AI绘画工具，可以通过文字描述生成高质量的图片作品。&#xA;主要功能 🎨 文生图 - 通过文字描述生成精美图片 🖼️ 风格多样 - 支持多种艺术风格 ⚡ 快速生成 - 几秒钟内完成创作 🔄 图片变体 - 生成图片的多种变体 定价 套餐 价格 特性 Basic $10/月 200次快速生成 Standard $30/月 15小时快速+无限慢速 Pro $60/月 30小时快速+无限慢速 使用场景 🎨 艺术创作 📱 社交媒体配图 🎮 游戏设计素材 📖 书籍插画 官网 访问 Midjourney 了解更多</description>
+    </item>
+  </channel>
+</rss>

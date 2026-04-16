@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "name": "写作助手",
+      "slug": "writing",
+      "icon": "✍️",
+      "description": "AI写作工具，帮你快速生成文案、文章、邮件等",
+      "color": "#6366f1"
+    },
+    {
+      "name": "AI绘画",
+      "slug": "image",
+      "icon": "🎨",
+      "description": "AI图像生成工具，支持文生图、图生图等",
+      "color": "#ec4899"
+    },
+    {
+      "name": "视频制作",
+      "slug": "video",
+      "icon": "🎬",
+      "description": "AI视频编辑和生成工具",
+      "color": "#f97316"
+    },
+    {
+      "name": "音频处理",
+      "slug": "audio",
+      "icon": "🎵",
+      "description": "AI语音合成、语音识别、音乐生成工具",
+      "color": "#22c55e"
+    },
+    {
+      "name": "编程开发",
+      "slug": "coding",
+      "icon": "💻",
+      "description": "AI编程助手，代码生成和优化工具",
+      "color": "#3b82f6"
+    },
+    {
+      "name": "办公效率",
+      "slug": "productivity",
+      "icon": "📊",
+      "description": "AI办公工具，表格、文档、演示等",
+      "color": "#eab308"
+    }
+  ]
+}

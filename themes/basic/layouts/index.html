@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="keywords" content="{{ .Site.Params.keywords }}">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { opacity: 0.9; font-size: 1.2rem; max-width: 600px; }
+        
+        nav { background: white; padding: 1rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        nav ul { display: flex; list-style: none; gap: 2rem; flex-wrap: wrap; }
+        nav a { text-decoration: none; color: #667eea; font-weight: 500; }
+        nav a:hover { color: #764ba2; }
+        
+        main { padding: 2rem 0; }
+        
+        .hero { text-align: center; padding: 3rem 0; }
+        .hero h2 { font-size: 2rem; margin-bottom: 1rem; color: #333; }
+        .hero p { color: #666; font-size: 1.1rem; max-width: 700px; margin: 0 auto; }
+        .hero .stats { display: flex; justify-content: center; gap: 4rem; margin-top: 3rem; flex-wrap: wrap; }
+        .hero .stat { text-align: center; }
+        .hero .stat .number { font-size: 3rem; font-weight: bold; color: #667eea; }
+        .hero .stat .label { color: #666; font-size: 1rem; margin-top: 0.3rem; }
+        
+        .section-title { font-size: 1.5rem; color: #333; margin: 3rem 0 1.5rem; border-left: 4px solid #667eea; padding-left: 1rem; }
+        
+        .categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+        .category-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+        .category-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.12); }
+        .category-card h3 { font-size: 1.3rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; color: #333; }
+        .category-card p { color: #666; font-size: 0.95rem; }
+        
+        .features { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+        .feature { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center; }
+        .feature .icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .feature h4 { color: #333; margin-bottom: 0.5rem; }
+        .feature p { color: #666; font-size: 0.9rem; }
+        
+        footer { background: #333; color: white; padding: 2rem 0; text-align: center; margin-top: 3rem; }
+        footer a { color: #a78bfa; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            nav ul { gap: 1rem; }
+            .categories-grid, .features { grid-template-columns: 1fr; }
+            .hero .stats { gap: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🤖 AI工具导航</h1>
+            <p>精选100+优质AI工具，涵盖写作、绘画、视频、音频、编程、办公等分类</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="/categories/">分类浏览</a></li>
+                <li><a href="/tools/">全部工具</a></li>
+                <li><a href="/about/">关于我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <div class="hero">
+                <h2>发现最实用的AI工具</h2>
+                <p>我们精心筛选了各类优质AI工具，帮助你提高工作效率，节省宝贵时间</p>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="number">100+</div>
+                        <div class="label">精选工具</div>
+                    </div>
+                    <div class="stat">
+                        <div class="number">6</div>
+                        <div class="label">专业分类</div>
+                    </div>
+                    <div class="stat">
+                        <div class="number">24h</div>
+                        <div class="label">持续更新</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="section-title">📦 分类浏览</h3>
+            <div class="categories-grid">
+                <a href="/categories/writing/" class="category-card">
+                    <h3>✍️ 写作助手</h3>
+                    <p>AI写作工具，帮你快速生成文案、文章、邮件等</p>
+                </a>
+                <a href="/categories/image/" class="category-card">
+                    <h3>🎨 AI绘画</h3>
+                    <p>AI图像生成工具，支持文生图、图生图等</p>
+                </a>
+                <a href="/categories/video/" class="category-card">
+                    <h3>🎬 视频制作</h3>
+                    <p>AI视频编辑和生成工具</p>
+                </a>
+                <a href="/categories/audio/" class="category-card">
+                    <h3>🎵 音频处理</h3>
+                    <p>AI语音合成、语音识别、音乐生成工具</p>
+                </a>
+                <a href="/categories/coding/" class="category-card">
+                    <h3>💻 编程开发</h3>
+                    <p>AI编程助手，代码生成和优化工具</p>
+                </a>
+                <a href="/categories/productivity/" class="category-card">
+                    <h3>📊 办公效率</h3>
+                    <p>AI办公工具，表格、文档、演示等</p>
+                </a>
+            </div>
+            
+            <h3 class="section-title">✨ 为什么选择我们</h3>
+            <div class="features">
+                <div class="feature">
+                    <div class="icon">🎯</div>
+                    <h4>精选收录</h4>
+                    <p>每款工具都经过人工筛选和评测</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📂</div>
+                    <h4>详细分类</h4>
+                    <p>按功能和使用场景科学分类</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🔄</div>
+                    <h4>持续更新</h4>
+                    <p>紧跟AI技术发展，不断更新</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📱</div>
+                    <h4>用户友好</h4>
+                    <p>简洁直观的界面设计</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2024 AI工具导航 - 精选优质AI工具</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="#">隐私政策</a> | 
+                <a href="#">使用条款</a> | 
+                <a href="#">联系我们</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

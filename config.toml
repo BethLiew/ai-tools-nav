@@ -1,0 +1,16 @@
+baseURL = "https://username.github.io/ai-tools-nav/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "AI工具导航 - 发现最实用的AI工具"
+description = "精选100+优质AI工具，涵盖写作、绘画、视频、音频、编程、办公等分类，帮助你提高工作效率"
+keywords = ["AI工具", "人工智能", "工具导航", "AI写作", "AI绘画", "AI视频"]
+theme = "basic"
+
+[params]
+  subtitle = "发现最实用的AI工具"
+  dateFormat = "2006-01-02"
+  author = "AI工具导航"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
