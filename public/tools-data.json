@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "name": "AI导航站",
+    "version": "1.0.0",
+    "totalTools": 574,
+    "lastUpdated": "2025-01-20"
+  },
+  "categories": [
+    {
+      "id": "writing",
+      "name": "AI写作工具",
+      "icon": "✍️",
+      "count": 33,
+      "description": "AI辅助写作，支持论文、小说、文案等"
+    },
+    {
+      "id": "image",
+      "name": "AI图像工具",
+      "icon": "🎨",
+      "count": 52,
+      "description": "AI生成和处理图像"
+    },
+    {
+      "id": "video",
+      "name": "AI视频工具",
+      "icon": "🎬",
+      "count": 47,
+      "description": "AI视频生成和剪辑"
+    },
+    {
+      "id": "audio",
+      "name": "AI音频工具",
+      "icon": "🎵",
+      "count": 39,
+      "description": "AI音乐创作和语音合成"
+    },
+    {
+      "id": "coding",
+      "name": "AI编程工具",
+      "icon": "💻",
+      "count": 33,
+      "description": "AI代码生成和编程辅助"
+    },
+    {
+      "id": "office",
+      "name": "AI办公工具",
+      "icon": "📊",
+      "count": 75,
+      "description": "PPT、文档、数据处理等办公AI"
+    },
+    {
+      "id": "agent",
+      "name": "AI智能体",
+      "icon": "🤖",
+      "count": 35,
+      "description": "AI Agent和自动化平台"
+    },
+    {
+      "id": "chat",
+      "name": "AI聊天助手",
+      "icon": "💬",
+      "count": 29,
+      "description": "AI对话和聊天机器人"
+    },
+    {
+      "id": "search",
+      "name": "AI搜索引擎",
+      "icon": "🔎",
+      "count": 27,
+      "description": "AI驱动的智能搜索引擎"
+    },
+    {
+      "id": "design",
+      "name": "AI设计工具",
+      "icon": "🎯",
+      "count": 45,
+      "description": "UI/UX、海报、Logo等设计AI"
+    },
+    {
+      "id": "learning",
+      "name": "AI学习网站",
+      "icon": "📚",
+      "count": 29,
+      "description": "AI和编程学习平台"
+    },
+    {
+      "id": "dev",
+      "name": "AI开发平台",
+      "icon": "⚙️",
+      "count": 60,
+      "description": "AI模型API和应用开发平台"
+    },
+    {
+      "id": "eval",
+      "name": "AI模型评测",
+      "icon": "📈",
+      "count": 19,
+      "description": "AI模型评测和排行榜"
+    },
+    {
+      "id": "detect",
+      "name": "AI内容检测",
+      "icon": "🔍",
+      "count": 22,
+      "description": "AI生成内容检测"
+    },
+    {
+      "id": "prompt",
+      "name": "AI提示词",
+      "icon": "💡",
+      "count": 29,
+      "description": "AI提示词工具和学习"
+    }
+  ],
+  "featured": [
+    {
+      "name": "ChatGPT",
+      "category": "chat",
+      "price": "免费/付费",
+      "url": "https://chat.openai.com",
+      "description": "OpenAI推出的AI聊天机器人，引领AI革命的里程碑产品",
+      "tags": ["通用", "对话", "GPT-4"],
+      "rating": 5
+    },
+    {
+      "name": "Claude",
+      "category": "chat",
+      "price": "免费/付费",
+      "url": "https://claude.ai",
+      "description": "Anthropic推出的专业AI助手，擅长长文本分析、代码编写",
+      "tags": ["长文本", "专业", "分析"],
+      "rating": 5
+    },
+    {
+      "name": "Midjourney",
+      "category": "image",
+      "price": "付费",
+      "url": "https://midjourney.com",
+      "description": "最流行的AI图像生成工具，能够根据文字描述创造出令人惊叹的艺术作品",
+      "tags": ["图像", "艺术", "设计"],
+      "rating": 5
+    },
+    {
+      "name": "豆包",
+      "category": "chat",
+      "price": "免费",
+      "url": "https://doubao.com",
+      "description": "字节跳动推出的智能对话助手，支持写作、创作、分析等全能功能",
+      "tags": ["字节", "国产", "免费"],
+      "rating": 5
+    },
+    {
+      "name": "Sora",
+      "category": "video",
+      "price": "付费",
+      "url": "https://openai.com/sora",
+      "description": "OpenAI推出的AI视频生成模型，能够根据文本描述生成长达一分钟的高清视频",
+      "tags": ["视频", "OpenAI", "高清"],
+      "rating": 5
+    },
+    {
+      "name": "Cursor",
+      "category": "coding",
+      "price": "免费/付费",
+      "url": "https://cursor.com",
+      "description": "AI代码编辑器，基于GPT-4，集成了强大的代码补全和生成功能",
+      "tags": ["编程", "IDE", "代码"],
+      "rating": 5
+    },
+    {
+      "name": "秘塔AI搜索",
+      "category": "search",
+      "price": "免费",
+      "url": "https://metaso.cn",
+      "description": "无广告AI搜索引擎，直达结果，是目前最好用的AI搜索工具",
+      "tags": ["搜索", "无广告", "直达"],
+      "rating": 5
+    },
+    {
+      "name": "Suno",
+      "category": "audio",
+      "price": "免费/付费",
+      "url": "https://suno.ai",
+      "description": "高质量AI音乐创作平台，可以根据描述生成完整的歌曲，包括歌词和旋律",
+      "tags": ["音乐", "创作", "歌曲"],
+      "rating": 5
+    },
+    {
+      "name": "Manus",
+      "category": "agent",
+      "price": "付费",
+      "url": "https://manus.im",
+      "description": "蝴蝶效应公司推出的首款自主通用AI Agent，能够独立完成复杂任务",
+      "tags": ["Agent", "通用", "自主"],
+      "rating": 5
+    },
+    {
+      "name": "Kimi",
+      "category": "chat",
+      "price": "免费",
+      "url": "https://kimi.moonshot.cn",
+      "description": "月之暗面推出的超长上下文AI助手，支持20万字无损上下文处理",
+      "tags": ["国产", "长文本", "免费"],
+      "rating": 5
+    },
+    {
+      "name": "AiPPT",
+      "category": "office",
+      "price": "免费/付费",
+      "url": "https://aippt.com",
+      "description": "AI快速生成高质量PPT，一句话即可生成专业演示文稿",
+      "tags": ["PPT", "演示", "办公"],
+      "rating": 5
+    },
+    {
+      "name": "Dify",
+      "category": "dev",
+      "price": "免费",
+      "url": "https://dify.ai",
+      "description": "开源的生成式AI应用开发平台，支持快速构建AI工作流和应用",
+      "tags": ["开源", "开发", "应用"],
+      "rating": 5
+    }
+  ],
+  "tools": [
+    {
+      "name": "ChatGPT",
+      "category": "chat",
+      "subcategory": "general",
+      "price": "免费/付费",
+      "url": "https://chat.openai.com",
+      "description": "OpenAI推出的AI对话和写作助手，支持GPT-4o多模态交互",
+      "tags": ["通用写作", "创意", "分析"],
+      "targetUsers": ["新手", "专业人士", "开发者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Claude",
+      "category": "chat",
+      "subcategory": "general",
+      "price": "免费/付费",
+      "url": "https://claude.ai",
+      "description": "Anthropic推出的专业AI助手，擅长长文本写作、代码编写、创意创作",
+      "tags": ["长文本", "专业", "分析"],
+      "targetUsers": ["研究人员", "写作者", "开发者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Kimi",
+      "category": "chat",
+      "subcategory": "general",
+      "price": "免费",
+      "url": "https://kimi.moonshot.cn",
+      "description": "月之暗面推出的超长上下文AI助手，支持20万字无损上下文处理",
+      "tags": ["国产", "长文本", "免费"],
+      "targetUsers": ["研究人员", "学生", "中文用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "豆包",
+      "category": "chat",
+      "subcategory": "general",
+      "price": "免费",
+      "url": "https://doubao.com",
+      "description": "字节跳动推出的智能对话助手，支持写作、创作、分析等全能功能",
+      "tags": ["字节", "国产", "免费"],
+      "targetUsers": ["中文用户", "创作者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "DeepSeek",
+      "category": "chat",
+      "subcategory": "general",
+      "price": "免费",
+      "url": "https://deepseek.com",
+      "description": "幻方量化推出的AI智能助手，开源大模型领先",
+      "tags": ["开源", "大模型", "免费"],
+      "targetUsers": ["开发者", "研究人员"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Gemini",
+      "category": "chat",
+      "subcategory": "general",
+      "price": "免费",
+      "url": "https://gemini.google.com",
+      "description": "Google推出的AI聊天对话机器人",
+      "tags": ["Google", "对话", "多模态"],
+      "targetUsers": ["所有用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Perplexity",
+      "category": "search",
+      "subcategory": "ai",
+      "price": "免费/付费",
+      "url": "https://perplexity.ai",
+      "description": "AI搜索引擎与深度研究工具，国际知名",
+      "tags": ["国际", "深度研究", "AI搜索"],
+      "targetUsers": ["研究人员", "深度用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "秘塔AI搜索",
+      "category": "search",
+      "subcategory": "ai",
+      "price": "免费",
+      "url": "https://metaso.cn",
+      "description": "无广告AI搜索引擎，直达结果，是目前最好用的AI搜索工具",
+      "tags": ["无广告", "直达", "推荐"],
+      "targetUsers": ["所有用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Midjourney",
+      "category": "image",
+      "subcategory": "generation",
+      "price": "付费",
+      "url": "https://midjourney.com",
+      "description": "最流行的AI图像生成工具，能够创造出令人惊叹的艺术作品",
+      "tags": ["图像生成", "艺术", "设计"],
+      "targetUsers": ["设计师", "艺术家"],
+      "rating": 5,
+      "isFree": false
+    },
+    {
+      "name": "Stable Diffusion",
+      "category": "image",
+      "subcategory": "generation",
+      "price": "免费",
+      "url": "https://stability.ai",
+      "description": "开源强大的AI图像生成模型，支持本地部署和自定义训练",
+      "tags": ["开源", "本地", "自定义"],
+      "targetUsers": ["开发者", "进阶用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "DALL-E 3",
+      "category": "image",
+      "subcategory": "generation",
+      "price": "免费/付费",
+      "url": "https://openai.com/dall-e-3",
+      "description": "OpenAI图像生成模型，精准理解文字描述并生成高质量图像",
+      "tags": ["OpenAI", "图像", "精准"],
+      "targetUsers": ["所有用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "LiblibAI",
+      "category": "image",
+      "subcategory": "community",
+      "price": "免费/付费",
+      "url": "https://liblibai.com",
+      "description": "国内领先的AI图像创作平台和模型分享社区",
+      "tags": ["国内", "模型分享", "社区"],
+      "targetUsers": ["设计师", "爱好者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Sora",
+      "category": "video",
+      "subcategory": "generation",
+      "price": "付费",
+      "url": "https://openai.com/sora",
+      "description": "OpenAI推出的AI视频生成模型，能够生成长达一分钟的高清视频",
+      "tags": ["OpenAI", "视频生成", "高清"],
+      "targetUsers": ["专业创作者"],
+      "rating": 5,
+      "isFree": false
+    },
+    {
+      "name": "Runway",
+      "category": "video",
+      "subcategory": "editing",
+      "price": "免费/付费",
+      "url": "https://runwayml.com",
+      "description": "AI视频编辑和生成平台，提供强大的视频处理能力",
+      "tags": ["视频编辑", "生成", "专业"],
+      "targetUsers": ["创作者", "专业人士"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "可灵AI",
+      "category": "video",
+      "subcategory": "generation",
+      "price": "免费/付费",
+      "url": "https://klingai.kuaishou.com",
+      "description": "快手AI图像和视频创作平台，支持图生视频",
+      "tags": ["快手", "图像", "视频"],
+      "targetUsers": ["创作者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "HeyGen",
+      "category": "video",
+      "subcategory": "avatar",
+      "price": "免费/付费",
+      "url": "https://heygen.com",
+      "description": "专业AI数字人视频创作平台，企业营销首选",
+      "tags": ["数字人", "企业", "营销"],
+      "targetUsers": ["企业", "营销人员"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Suno",
+      "category": "audio",
+      "subcategory": "music",
+      "price": "免费/付费",
+      "url": "https://suno.ai",
+      "description": "高质量AI音乐创作平台，可以根据描述生成完整歌曲",
+      "tags": ["音乐", "创作", "歌曲"],
+      "targetUsers": ["音乐创作者", "爱好者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Udio",
+      "category": "audio",
+      "subcategory": "music",
+      "price": "免费",
+      "url": "https://udio.com",
+      "description": "免费AI音乐创作工具，每月可生成1200首歌曲",
+      "tags": ["免费", "音乐", "海量"],
+      "targetUsers": ["音乐爱好者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "ElevenLabs",
+      "category": "audio",
+      "subcategory": "tts",
+      "price": "免费/付费",
+      "url": "https://elevenlabs.io",
+      "description": "AI文本转语音，支持包含中文在内的29种语言",
+      "tags": ["TTS", "多语言", "语音"],
+      "targetUsers": ["开发者", "内容创作者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "魔音工坊",
+      "category": "audio",
+      "subcategory": "tts",
+      "price": "免费/付费",
+      "url": "https://moyin.com",
+      "description": "AI配音工具，轻松配出媲美真人的声音",
+      "tags": ["配音", "语音", "主播"],
+      "targetUsers": ["创作者", "主播"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Cursor",
+      "category": "coding",
+      "subcategory": "ide",
+      "price": "免费/付费",
+      "url": "https://cursor.com",
+      "description": "AI代码编辑器，基于GPT-4，集成了强大的代码补全和生成功能",
+      "tags": ["IDE", "GPT-4", "代码"],
+      "targetUsers": ["开发者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "GitHub Copilot",
+      "category": "coding",
+      "subcategory": "assistant",
+      "price": "付费",
+      "url": "https://github.com/features/copilot",
+      "description": "GitHub推出的AI编程助手，代码补全和生成专家",
+      "tags": ["代码补全", "GitHub", "微软"],
+      "targetUsers": ["开发者"],
+      "rating": 5,
+      "isFree": false
+    },
+    {
+      "name": "Claude Code",
+      "category": "coding",
+      "subcategory": "ide",
+      "price": "免费/付费",
+      "url": "https://claude.ai/code",
+      "description": "Anthropic推出的AI编程工具，代码编写和分析",
+      "tags": ["Anthropic", "编程", "代码"],
+      "targetUsers": ["开发者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "TRAE IDE",
+      "category": "coding",
+      "subcategory": "ide",
+      "price": "免费",
+      "url": "https://trae.ai",
+      "description": "字节跳动推出的AI编程IDE，Vibe Coding必备",
+      "tags": ["字节", "IDE", "免费"],
+      "targetUsers": ["开发者"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "AiPPT",
+      "category": "office",
+      "subcategory": "ppt",
+      "price": "免费/付费",
+      "url": "https://aippt.com",
+      "description": "AI快速生成高质量PPT，一句话即可生成专业演示",
+      "tags": ["PPT", "演示", "办公"],
+      "targetUsers": ["办公人员", "老师"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Gamma",
+      "category": "office",
+      "subcategory": "ppt",
+      "price": "免费/付费",
+      "url": "https://gamma.app",
+      "description": "AI幻灯片演示生成工具，国际知名",
+      "tags": ["PPT", "演示", "国际"],
+      "targetUsers": ["商务人士", "设计师"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "讯飞智文",
+      "category": "office",
+      "subcategory": "ppt",
+      "price": "免费",
+      "url": "https://zhiwen.xunfei.com",
+      "description": "科大讯飞一键生成PPT和Word文档",
+      "tags": ["讯飞", "PPT", "Word"],
+      "targetUsers": ["办公人员"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Coze/扣子",
+      "category": "agent",
+      "subcategory": "platform",
+      "price": "免费",
+      "url": "https://coze.cn",
+      "description": "免费全能的AI办公智能体平台，海量Bot可用",
+      "tags": ["Bot", "免费", "智能体"],
+      "targetUsers": ["所有用户"],
+      "rating": 5,
+      "isFree": true
+    },
+    {
+      "name": "Manus",
+      "category": "agent",
+      "subcategory": "general",
+      "price": "付费",
+      "url": "https://manus.im",
+      "description": "蝴蝶效应公司推出的首款自主通用AI Agent",
+      "tags": ["通用Agent", "自主", "高阶"],
+      "targetUsers": ["高端用户"],
+      "rating": 5,
+      "isFree": false
+    },
+    {
+      "name": "Dify",
+      "category": "dev",
+      "subcategory": "platform",
+      "price": "免费",
+      "url": "https://dify.ai",
+      "description": "开源的生成式AI应用开发平台",
+      "tags": ["开源", "开发", "应用"],
+      "targetUsers": ["开发者"],
+      "rating": 5,
+      "isFree": true
+    }
+  ]
+}

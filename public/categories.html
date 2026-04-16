@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI工具分类 - AI导航站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f7;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .category-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            transition: all 0.3s;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        
+        .category-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .category-name {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .category-desc {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .category-count {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Color variations */
+        .card-1:hover { border: 2px solid #667eea; }
+        .card-2:hover { border: 2px solid #f093fb; }
+        .card-3:hover { border: 2px solid #4facfe; }
+        .card-4:hover { border: 2px solid #43e97b; }
+        .card-5:hover { border: 2px solid #fa709a; }
+        .card-6:hover { border: 2px solid #fee140; }
+        .card-7:hover { border: 2px solid #a18cd1; }
+        .card-8:hover { border: 2px solid #fbc2eb; }
+        .card-9:hover { border: 2px solid #a1c4fd; }
+        .card-10:hover { border: 2px solid #c2e9fb; }
+        .card-11:hover { border: 2px solid #d4fc79; }
+        .card-12:hover { border: 2px solid #96e6a1; }
+        .card-13:hover { border: 2px solid #fddb92; }
+        .card-14:hover { border: 2px solid #a1c4fd; }
+        .card-15:hover { border: 2px solid #f6d365; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 AI工具分类</h1>
+            <p>574+优质AI工具，覆盖15大分类</p>
+        </div>
+        
+        <div class="category-grid">
+            <div class="category-card card-1" onclick="location.href='#writing'">
+                <div class="category-icon">✍️</div>
+                <div class="category-name">AI写作工具</div>
+                <div class="category-desc">AI辅助写作，支持论文、小说、文案、办公等各类写作场景</div>
+                <span class="category-count">33个工具</span>
+            </div>
+            
+            <div class="category-card card-2" onclick="location.href='#image'">
+                <div class="category-icon">🎨</div>
+                <div class="category-name">AI图像工具</div>
+                <div class="category-desc">AI生成和处理图像，包括绘画、抠图、修复、设计等</div>
+                <span class="category-count">52个工具</span>
+            </div>
+            
+            <div class="category-card card-3" onclick="location.href='#video'">
+                <div class="category-icon">🎬</div>
+                <div class="category-name">AI视频工具</div>
+                <div class="category-desc">AI视频生成和剪辑，包括数字人、视频剪辑、特效等</div>
+                <span class="category-count">47个工具</span>
+            </div>
+            
+            <div class="category-card card-4" onclick="location.href='#audio'">
+                <div class="category-icon">🎵</div>
+                <div class="category-name">AI音频工具</div>
+                <div class="category-desc">AI音乐创作和语音合成，包括配音、克隆、转录等</div>
+                <span class="category-count">39个工具</span>
+            </div>
+            
+            <div class="category-card card-5" onclick="location.href='#coding'">
+                <div class="category-icon">💻</div>
+                <div class="category-name">AI编程工具</div>
+                <div class="category-desc">AI代码生成和编程辅助，提高开发效率</div>
+                <span class="category-count">33个工具</span>
+            </div>
+            
+            <div class="category-card card-6" onclick="location.href='#office'">
+                <div class="category-icon">📊</div>
+                <div class="category-name">AI办公工具</div>
+                <div class="category-desc">PPT、文档、数据处理、会议、翻译等办公AI工具</div>
+                <span class="category-count">75个工具</span>
+            </div>
+            
+            <div class="category-card card-7" onclick="location.href='#agent'">
+                <div class="category-icon">🤖</div>
+                <div class="category-name">AI智能体</div>
+                <div class="category-desc">AI Agent和自动化平台，自主完成复杂任务</div>
+                <span class="category-count">35个工具</span>
+            </div>
+            
+            <div class="category-card card-8" onclick="location.href='#chat'">
+                <div class="category-icon">💬</div>
+                <div class="category-name">AI聊天助手</div>
+                <div class="category-desc">AI对话和聊天机器人，智能问答和对话</div>
+                <span class="category-count">29个工具</span>
+            </div>
+            
+            <div class="category-card card-9" onclick="location.href='#search'">
+                <div class="category-icon">🔎</div>
+                <div class="category-name">AI搜索引擎</div>
+                <div class="category-desc">AI驱动的智能搜索引擎，无广告直达结果</div>
+                <span class="category-count">27个工具</span>
+            </div>
+            
+            <div class="category-card card-10" onclick="location.href='#design'">
+                <div class="category-icon">🎯</div>
+                <div class="category-name">AI设计工具</div>
+                <div class="category-desc">UI/UX、海报、Logo等设计AI工具</div>
+                <span class="category-count">45个工具</span>
+            </div>
+            
+            <div class="category-card card-11" onclick="location.href='#learning'">
+                <div class="category-icon">📚</div>
+                <div class="category-name">AI学习网站</div>
+                <div class="category-desc">AI和编程学习平台，在线课程和教程</div>
+                <span class="category-count">29个工具</span>
+            </div>
+            
+            <div class="category-card card-12" onclick="location.href='#dev'">
+                <div class="category-icon">⚙️</div>
+                <div class="category-name">AI开发平台</div>
+                <div class="category-desc">AI模型API和应用开发平台，模型训练和部署</div>
+                <span class="category-count">60个工具</span>
+            </div>
+            
+            <div class="category-card card-13" onclick="location.href='#eval'">
+                <div class="category-icon">📈</div>
+                <div class="category-name">AI模型评测</div>
+                <div class="category-desc">AI模型评测和排行榜，评估模型性能</div>
+                <span class="category-count">19个工具</span>
+            </div>
+            
+            <div class="category-card card-14" onclick="location.href='#detect'">
+                <div class="category-icon">🔍</div>
+                <div class="category-name">AI内容检测</div>
+                <div class="category-desc">AI生成内容检测，识别AI创作内容</div>
+                <span class="category-count">22个工具</span>
+            </div>
+            
+            <div class="category-card card-15" onclick="location.href='#prompt'">
+                <div class="category-icon">💡</div>
+                <div class="category-name">AI提示词工具</div>
+                <div class="category-desc">AI提示词工具和学习，优化提示词效果</div>
+                <span class="category-count">29个工具</span>
+            </div>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">← 返回首页</a>
+        </div>
+    </div>
+</body>
+</html>
